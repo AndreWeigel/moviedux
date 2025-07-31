@@ -2,7 +2,7 @@ import './App.css';
 import './styles.css';
 import Header from './components/Header';
 import Footer from "./components/Footer";
-import Counter from "./components/Counter";
+import MovieGrid from "./components/MovieGrid";
 
 function App() {
   return (
@@ -10,9 +10,10 @@ function App() {
 
         <div className="container">
             <Header></Header>
+            <MovieGrid></MovieGrid>
         </div>
 
-        <Counter />
+
 
 
         <Footer></Footer>
